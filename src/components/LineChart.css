@@ -1,0 +1,83 @@
+.chartContainer {
+  width: 100%;
+  position: relative;
+}
+.container {
+  width: 51px;
+  height: 32px;
+  overflow: visible;
+  background: #4cd964;
+  border-radius: 62px;
+  position: absolute;
+  top: -50px;
+  right: 5px;
+  z-index: 1;
+}
+.dataRange {
+  position: absolute;
+  top: -50px;
+  left: 5px;
+  z-index: 1;
+}
+.knob {
+  width: 28px;
+  height: 28px;
+  overflow: visible;
+  background-color: #ffffff;
+  border-radius: 128px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.15),
+    0px 1px 1px 0px hsla(0, 0%, 0%, 0.16), 0px 3px 1px 0px hsla(0, 0%, 0%, 0.1);
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.container p {
+  position: absolute;
+  top: 7px;
+  left: -80px;
+  font-size: 15px;
+}
+.chatGroup {
+  width: 93%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-gap: 50px 40px;
+  padding: 0;
+}
+.seleted{
+  width:92%;
+  margin:0 auto;
+  margin-bottom: 80px;
+  background: white;
+  padding:30px;
+  border-radius: 26px;
+  box-shadow: 0px 2px 80px rgba(217, 212, 243, 0.6);
+}
+ .chatUnit {
+  width: 44vw;
+  height: 440px;
+  padding: 80px 30px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 80px rgba(217, 212, 243, 0.6);
+}
+@media screen and (max-width:980px) {
+  .chatGroup{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .chatUnit{
+    width: 88vw;
+  }
+}
+@media screen and (min-width:1800px){
+  .chatUnit{
+    width: 29vw;
+  }
+  .chatGroup{
+    width: 92%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,12 @@
+.Hero{
+    background: url('../images/wallpaper3.jpg');
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+.waves{
+    padding: 580px 0;
+    width:100%
+}
